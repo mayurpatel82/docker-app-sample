@@ -90,6 +90,10 @@ docker-compose up -d --build
 ------
 ## Your entire application up and running with docker containers
 ------
+3. Stop your entire application
+```
+docker-compose down
+```
 # Next ...
 ### Host application to AWS
   - Set Up a CI/CD Pipeline on AWS 
