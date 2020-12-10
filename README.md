@@ -1,5 +1,6 @@
 ![](client/images/docker-image.jpg)
 ![](client/images/docker-compose.jpg)
+![](client/images/aspnetcore.png)
 
 ## Deploy application to docker using docker-compose.
 -----
