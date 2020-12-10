@@ -1,4 +1,5 @@
-![](api/images/docker-image.jpg)
+![](client/images/docker-image.jpg)
+![](client/images/docker-compose.jpg)
 
 ## Deploy application to docker using docker-compose.
 -----
