@@ -82,7 +82,7 @@ services:
 ```
 2.Run docker-compose to test 
 ```
-docker-compose up --build
+docker-compose up -d --build
 ```
 ------
 ## Your entire application up and running with docker containers
