@@ -1,3 +1,5 @@
+![](api/images/docker-image.jpg)
+
 ## Deploy application to docker using docker-compose.
 -----
 ### Docker Configuration Steps for front-end client
