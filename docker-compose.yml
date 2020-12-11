@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  api:
+    build: ./docker-activities-api-main
+    ports: 
+      - '5000:80'
+  client:
+    build: ./docker-activities-client-main/clientapp
+    stdin_open: true
+    tty: true
+    ports: 
+      - '3000:3000'

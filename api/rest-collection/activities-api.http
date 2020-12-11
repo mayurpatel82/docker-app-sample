@@ -1,0 +1,35 @@
+
+### To get all activities
+GET http://localhost:5000/api/Values
+Content-Type: application/json
+
+### To get the activity deails
+GET http://localhost:5000/api/Activities
+Content-Type: application/json
+
+### To add new activity
+Post http://localhost:5000/api/Activities
+Content-Type: application/json
+
+{
+    "id": "{{$guid}}",
+    "title": "Test Creation",
+    "description": "Description of activity",
+    "category": "Culture",
+    "date": "{{$datetime iso8601}}",
+    "city": "London",
+    "venue": "Tower of London"
+}
+
+###To update the activity
+PUT http://localhost:5000/api/Activities/F6F2262F-6136-44BA-A434-9DF7F4CE63C5
+Content-Type: application/json
+
+{
+    "id": "F6F2262F-6136-44BA-A434-9DF7F4CE63C5",
+    "title": "Past Activity 1"
+}
+
+### To delete the activity
+DELETE http://localhost:5000/api/Activities/103B8ABC-7A62-4E31-BAF5-AE95B17ABB6B	
+Content-Type: application/json
