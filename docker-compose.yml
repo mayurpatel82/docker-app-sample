@@ -1,11 +1,11 @@
 version: "3.7"
 services:
   api:
-    build: ./docker-activities-api-main
+    image: mayurpatel9/api:1
     ports: 
       - '5000:80'
   client:
-    build: ./docker-activities-client-main/clientapp
+    image: mayurpatel9/client:1
     stdin_open: true
     tty: true
     ports: 
