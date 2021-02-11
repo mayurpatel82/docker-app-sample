@@ -97,6 +97,7 @@ docker-compose down
 ```
 # Next ...
 ### Host application to AWS
+  - Host database sql server to another container
   - Deploy application to AWS Fargate 
   - Set Up a CI/CD Pipeline on AWS 
   
