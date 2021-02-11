@@ -97,5 +97,6 @@ docker-compose down
 ```
 # Next ...
 ### Host application to AWS
-  - Set Up a CI/CD Pipeline on AWS 
   - Deploy application to AWS Fargate 
+  - Set Up a CI/CD Pipeline on AWS 
+  
